@@ -1,0 +1,35 @@
+{
+  "name": "rewiremock-discuss",
+  "version": "0.0.1",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "description": "rewire mock discussion",
+  "author": "Chris <chris@bumblehead.com>",
+  "main": "rewiremock-discuss.js",
+  "module": "rewiremock-discuss.js",
+  "files": [
+    "rewiremock-discuss.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iambumblehead/rewiremock-discuss.git"
+  },
+  "keywords": [
+    "discuss"
+  ],
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "esm": "^3.2.25",
+    "form-urlencoded": "^4.2.1",
+    "rewiremock": "^3.13.7"
+  },
+  "ava": {
+    "timeout": "2m",
+    "require": [
+      "esm"
+    ]
+  },
+  "scripts": {
+    "test": "ava"
+  }
+}
